@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roberto's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Get In Touch</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Roberto Reyes</h1>
+        <h2>Software Engineer</h2>
+      </div>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself, your skills, and your experience.</p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project Title</h3>
+          <img src="project-image.jpg" alt="Project Image">
+          <p>Project description</p>
+          <a href="project-url">View Project</a>
+        </div>
+        <!-- Repeat this section for each project -->
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+       
+          <form
+            action="https://formspree.io/f/mzbqkleo"
+            method="POST"
+          >
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Roberto Reyes</p>
+    </footer>
+      <script>
+        window.onbeforeunload = () => {
+          for(const form of document.getElementsByTagName('form')) {
+            form.reset();
+          }
+        }
+    </script>
+  </body>
+</html>
