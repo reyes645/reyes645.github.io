@@ -1,18 +1,12 @@
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  a {
-    color: #000;
-  }
-  
-  /* Header styles */
   header {
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #263238;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,12 +25,10 @@ body {
   }
   
   nav a {
-    color: #333;
+    color: #fff;
     text-decoration: none;
-    font-size: 18px;
   }
   
-  /* Hero styles */
   .hero {
     text-align: center;
     padding: 50px;
@@ -50,19 +42,16 @@ body {
   .hero h2 {
     font-size: 30px;
     margin: 0;
-    color: #777;
   }
   
   .hero a {
-    background-color: #333;
+    background-color: #4caf50;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 4px;
-    font-size: 20px;
   }
   
-  /* Main content styles */
   main {
     padding: 50px;
   }
@@ -74,20 +63,17 @@ body {
   section h2 {
     font-size: 40px;
     margin-bottom: 20px;
-    color: #333;
   }
   
   .project {
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 4px;
-    background-color: #fff;
   }
   
   .project h3 {
     font-size: 30px;
     margin-top: 0;
-    color: #333;
   }
   
   .project img {
@@ -96,26 +82,22 @@ body {
   
   .project p {
     font-size: 20px;
-    color: #777;
   }
   
   .project a {
     display: inline-block;
-    background-color: #333;
+    background-color: #263238;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 4px;
-    font-size: 18px;
   }
   
-  /* Form styles */
   form label {
     display: block;
     font-size: 20px;
     margin-bottom: 5px;
-    color: #333;
   }
   
   form input,
@@ -128,7 +110,7 @@ body {
   }
   
   form button {
-    background-color: #333;
+    background-color: #4caf50;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
@@ -138,12 +120,10 @@ body {
     font-size: 20px;
   }
   
-  /* Footer styles */
   footer {
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #263238;
+    color: #fff;
     text-align: center;
     padding: 20px;
-    font-size: 18px;
   }
   
