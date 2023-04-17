@@ -30,7 +30,7 @@ body {
   }
 
   nav a:hover {
-    background-color: #2c55a7;
+    color: #2c55a7;
   }
 
   .hero {
@@ -99,7 +99,7 @@ body {
   }
 
   .project a:hover {
-    background-color: #1F2A40;
+    background-color: #2c55a7;;
   }
 
   form label {
@@ -129,11 +129,11 @@ body {
   }
   
   form button:hover {
-    background-color: #2c55a7;
+    background-color: #2c55a7;;
   }
 
   footer {
-    background-color: #2c55a7;
+    background-color: #263238;
     color: #fff;
     text-align: center;
     padding: 20px;
