@@ -142,7 +142,6 @@ body {
   .social-link {
     display: inline-block;
     padding: 10px 15px;
-    margin: 5px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -156,10 +155,10 @@ body {
   }
   
   .social-link.linkedin {
-    color: #0077b5;
+    background-color: #0077b5;
   }
   
   .social-link.github {
-    color: #333;
+    background-color: #333;
   }
   
