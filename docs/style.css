@@ -142,6 +142,7 @@ body {
   .social-link {
     display: inline-block;
     padding: 10px 15px;
+    margin-bottom: 10px;
     border-radius: 5px;
     color: white;
     text-decoration: none;
